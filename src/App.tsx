@@ -9,6 +9,7 @@ import NotFoundScreen from "./screens/NotFoundScreen";
 function App() {
   return (
     <ThemeProvider
+      // Get Theme from https://material-ui.com/customization/color/#playground
       theme={createMuiTheme({
         palette: {
           primary: colors.red,
